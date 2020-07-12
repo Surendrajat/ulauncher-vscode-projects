@@ -1,8 +1,8 @@
 {
   "required_api_version": "^2.0.0",
-  "name": "VS Code Projects",
-  "description": "Integrates with VSCode Git Projects extension allowing you to open your projects from anywhere using Ulauncher",
-  "developer_name": "Bruno Paz",
+  "name": "Sublime Merge Projects",
+  "description": "Integrates with VSCode Git Projects extension allowing you to open your projects in Sublime Merge from anywhere using Ulauncher",
+  "developer_name": "Surendrajat",
   "icon": "images/icon.png",
   "options": {
     "query_debounce": 0.1
@@ -13,7 +13,7 @@
       "type": "keyword",
       "name": "VSCode Projects",
       "description": "Open your Git Projects on VS Code",
-      "default_value": "projects"
+      "default_value": "sm"
     },
     {
       "id": "projects_file_path",
@@ -27,7 +27,7 @@
       "type": "input",
       "name": "VS Code executable path",
       "description": "The path to the VS Code executable",
-      "default_value": "code"
+      "default_value": "smerge"
     }
   ]
 }
