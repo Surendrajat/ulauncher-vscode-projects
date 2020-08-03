@@ -11,15 +11,15 @@
     {
       "id": "kw",
       "type": "keyword",
-      "name": "VSCode Projects",
-      "description": "Open your Git Projects on VS Code",
+      "name": "Sublime Merge Projects",
+      "description": "Open your Git Projects in Sublime Merge",
       "default_value": "sm"
     },
     {
       "id": "projects_file_path",
       "type": "input",
       "name": "Projects File path",
-      "description": "The location of of projects file cache created by Project Manager VSCode Extension",
+      "description": "The location of projects file cache created by Project Manager VSCode Extension",
       "default_value": "~/.config/Code/User/globalStorage/alefragnani.project-manager/"
     },
     {
